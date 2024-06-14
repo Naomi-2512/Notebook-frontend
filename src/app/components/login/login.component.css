@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.entirePage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #e546d8, #6d28d9);
+}
+
+.loginPage{
+    height: 70%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    background-color: aliceblue;
+    margin-top: 4%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px 15px #3B3486;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 30%;
+    gap: 5%;
+}
+.login input{
+    height: 20%;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 2%;
+    gap: 2%;
+}
+.btn{
+    color: white;
+    background: linear-gradient(to right, #4f46e5, #6d28d9);
+    border: none;
+    outline: none;
+    height: 15%;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 70%;
+}
+.btn:hover{
+    /* background-color: blue; */
+    color: white;
+    opacity: 0.6;
+}
+::placeholder{
+    color: gray;
+    font-weight: 700;
+}
+
+.passwordChange{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}

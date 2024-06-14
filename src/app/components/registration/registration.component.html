@@ -1,0 +1,17 @@
+
+<div class="entirePage">
+    <div class="registerPage">
+        <h1>Register</h1>
+        <form #registrationForm = "ngForm" (ngSubmit) = "directToDashboard(registrationForm.value)" class="register" id="register-form">
+            <input type="text" ngModel name="username" placeholder="Name">
+            <input type="email" ngModel placeholder="Email">
+            <input type="password" ngModel name="password" placeholder="create password">
+            <input type="password" ngModel placeholder="confirm password">
+            <input routerLink="/dashboard" type="submit" value="Sign up" class="btn">
+        </form>
+        <div class="confirmation">
+            <p>Already have an account?</p> 
+            <p routerLink = "login" class="director">login</p>
+        </div>
+    </div>
+</div>

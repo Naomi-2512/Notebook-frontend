@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.entirePage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #e546d8, #6d28d9);
+}
+
+.registerPage{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px 15px #3B3486;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+    gap: 4%;
+}
+.register input{
+    height: 15%;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 2%;
+}
+.confirmation{
+    display: flex;
+    width: 80%;
+    gap: 2%;
+    justify-content: center;
+}
+.confirmation button{
+    color: blue;
+    border: none;
+    background-color: transparent;
+}
+.confirmation button:hover{
+    color: #4cc9f0;
+}
+.btn{
+    color: white;
+    background: linear-gradient(to right, #4f46e5, #6d28d9);
+    border: none;
+    outline: none;
+    height: 15%;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 70%;
+}
+.btn:hover{
+    /* background-color: blue; */
+    color: white;
+    opacity: 0.6;
+}
+::placeholder{
+    color: gray;
+    font-weight: 700;
+}
